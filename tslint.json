@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "interface-name": false,
+    "object-literal-sort-keys": false
+  },
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "alwaysShowRuleFailuresAsWarnings": false,
+        "ignoreDefinitionFiles": true,
+        "configFile": "../tslint.json",
+        "suppressWhileTypeErrorsPresent": false,
+        "mockTypeScriptVersion": false
+      }
+    ]
+  }
+}

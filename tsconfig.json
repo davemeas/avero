@@ -1,0 +1,42 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/",
+    "rootDir": "./",
+    "noEmit": true,
+    "lib": ["dom", "es2017", "esnext.asynciterable"],
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowJs": true,
+    "experimentalDecorators": false,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "transpileOnly": true
+  },
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "typeAcquisition": {
+    "enable": true
+  }
+}
